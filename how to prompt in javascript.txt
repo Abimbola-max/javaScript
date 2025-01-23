@@ -1,0 +1,14 @@
+To Prompt user for Input in javaScript. Follow the steps below 
+
+1) Open your Cmd 
+
+2) Enter npm install prompt-sync 
+
+3) Once you are done with this, open your file I.e where you are writing your code 
+
+4) const ps = require("prompt-sync")
+5) const prompt = ps();
+
+After you are done with step 4&5, you have imported the prompt-sync.
+
+You can start using prompt
