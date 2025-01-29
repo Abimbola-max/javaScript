@@ -60,12 +60,23 @@ const personDetails = {
 			firstName: "abisoye",
 			LastName: "abimbola",
 			age: 23
-
-		};
+};
 
 for (let indexCount in personDetails) {
 	console.log("\"" + indexCount + ":" + personDetails[indexCount] + "\"");
 }
+
+//7.
+
+const book = {
+    title: 'The Great Gatsby',
+    author: 'F. Scott Fitzgerald',
+    yearPublished: 1925
+};
+const{title, author} = book;
+
+console.log(`${title} by ${author}`);
+
 
 
 
