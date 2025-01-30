@@ -59,3 +59,20 @@ console.log(isPalindrome(number));
 
 
 //6.4
+
+function reversed(integer) {
+	let reversedNumber = 0;
+  	let numberStorage = integer;
+  	while (numberStorage != 0) {
+    		let digit = numberStorage % 10;
+    		reversedNumber = reversedNumber * 10 + digit;
+    		numberStorage = Math.floor(numberStorage / 10);
+  	}
+
+  	return reversedNumber;
+
+}
+console.log("The four task answers are below");
+let integer = prompt("Enter a number: ");
+console.log(reverse(integer));
+
