@@ -1,3 +1,7 @@
+import promptSync from "prompt-sync";
+const prompt = promptSync();
+
+
 //6.1
 
 function getPantagonalNumber(number) {
@@ -29,3 +33,29 @@ console.log(sumDigits(234));
 
 
 //6.3
+
+function reverse(number) {
+	let reversedNumber = 0;
+  	let numberStorage = number;
+  	while (numberStorage != 0) {
+    		let digit = numberStorage % 10;
+    		reversedNumber = reversedNumber * 10 + digit;
+    		numberStorage = Math.floor(numberStorage / 10);
+  	}
+
+  	return reversedNumber;
+
+}
+
+function isPalindrome(number){
+	let reversed = reverse(number);
+ 	return number === reversed;
+}
+
+console.log("The third task answers are below");
+let number = prompt("Enter a number: ");
+console.log(reverse(number));
+console.log(isPalindrome(number));
+
+
+//6.4
