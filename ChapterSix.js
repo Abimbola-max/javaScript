@@ -28,7 +28,8 @@ function sumDigits(digit) {
 }
 
 console.log("The second task answers are below");
-console.log(sumDigits(234));
+let digit = prompt("Enter a number: ");
+console.log(sumDigits(digit));
 
 
 
@@ -72,7 +73,7 @@ function reversed(integer) {
   	return reversedNumber;
 
 }
-console.log("The four task answers are below");
+console.log("The fourth task answers are below");
 let integer = prompt("Enter a number: ");
 console.log(reverse(integer));
 
