@@ -1,5 +1,5 @@
-const ps = require("prompt-sync");
-const prompt = ps();
+import promptSync from "prompt-sync";
+const prompt = promptSync();
 
 
 let text = prompt("Enter your name: ");

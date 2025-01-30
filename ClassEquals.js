@@ -44,23 +44,34 @@ console.log("This is function as a returned object");
 
 console.log(counter.getValue());
 
-
+let firstName = "bibi";
 function greet(name) {
 	return `Hello ${name}`
 };
-console.log("This is a function as an argument below");
-let result = executeFunction(greet, firstName)
 
-
-function callBack(name) {
-	return `Hello ${name}`
-};
-
-function executeFunction1(callBack, userName){
+function executeFunction(callBack, userName){
 	return callBack(userName);
 }
+
 console.log("This is a function as an argument below");
 let result = executeFunction(greet, firstName)
+console.log(result);
+
+
+
+function counts() {
+	let value = 0;
+
+	function increaseValueByTwo() {
+		let result = value + 2;
+		console.log(result);
+		console.log(value);	
+	};
+
+	increaseValueByTwo();
+};
+counts();
+
 
 
 
