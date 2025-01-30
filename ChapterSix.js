@@ -2,7 +2,7 @@ import promptSync from "prompt-sync";
 const prompt = promptSync();
 
 //6.1
-
+/**
 function getPantagonalNumber(number) {
 	let numbers = number * ((3 * number) - 1) / 2;
 	return numbers;
@@ -112,6 +112,22 @@ let firstNumber = parseInt(prompt("Enter first number: "));
 let secondNumber = parseInt(prompt("Enter second number: "));
 let thirdNumber = parseInt(prompt("Enter third number: "));
 console.log(displaySortedNumbers(firstNumber, secondNumber, thirdNumber));
+*/
+
+//6.6
+//function displayPattern(number) {
+
+let number = prompt("Enter a number: ");
+	for (let count = 1; count <= number; count++) {
+		for(let counter = 1; counter <= count; counter++) {
+			console.log("");
+		console.log(count + "" + counter);
+		};
+		
+	};
+
+
+  
 
 
 
