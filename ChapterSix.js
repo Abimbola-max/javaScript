@@ -1,7 +1,6 @@
 import promptSync from "prompt-sync";
 const prompt = promptSync();
 
-
 //6.1
 
 function getPantagonalNumber(number) {
@@ -76,4 +75,45 @@ function reversed(integer) {
 console.log("The fourth task answers are below");
 let integer = prompt("Enter a number: ");
 console.log(reverse(integer));
+
+
+
+//6.5
+
+function displaySortedNumbers(firstNumber, secondNumber, thirdNumber) {
+
+	let smallest = 0;
+	let middle = 0;
+	let largest = 0;
+
+	if (firstNumber < secondNumber && firstNumber < thirdNumber) {
+		smallest = firstNumber;
+	} else if (secondNumber < firstNumber && secondNumber < thirdNumber) {
+  		smallest = secondNumber;
+	} else {
+  		smallest = thirdNumber;
+	}
+
+	if (firstNumber > secondNumber && firstNumber > thirdNumber) {
+  		largest = firstNumber;
+	} else if (secondNumber > firstNumber && secondNumber > thirdNumber) {
+  		largest = secondNumber;
+	} else {
+  		largest = thirdNumber;
+	}
+
+	middle = (firstNumber + secondNumber + thirdNumber) - smallest - largest;
+
+	return [smallest, middle, largest];
+}
+
+console.log("The fifth task answers are below");
+let firstNumber = parseInt(prompt("Enter first number: "));
+let secondNumber = parseInt(prompt("Enter second number: "));
+let thirdNumber = parseInt(prompt("Enter third number: "));
+console.log(displaySortedNumbers(firstNumber, secondNumber, thirdNumber));
+
+
+
+
 
