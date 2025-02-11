@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/classWork/Bank Account" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/classWork/First Task" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/classWork/TaskFour" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />

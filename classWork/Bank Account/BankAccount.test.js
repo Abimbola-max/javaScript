@@ -25,7 +25,7 @@ test ("withdraw 500 from the account", () => {
 });
 
 test ("withdraw minus 700 from the account", () => {
-    let withdrawFunction = withdraw(person, -700);
+    let withdrawFunction = bankAccount.withdraw(-700);
     let expected = bankAccount.getBalance();
     expect(withdrawFunction).toBe(expected);
 })
