@@ -18,12 +18,12 @@ function addAge(student, age) {
     return student.age = age;
 }
 
-function addNewProperty(student, property) {
-    return student.property = property;
+function addNewProperty(student, GPA) {
+    return student.GPA = GPA;
 }
 
-function getDetails(student) {
-    return student.name + "is" + student.age + "years old and has a Gpa of " + student.property;
+function getDetails(student, age) {
+    return student.name + " is " + age + " years old and has a GPA of " + student.GPA;
 }
 
 module.exports = {getStudentName, getSubjectIndex, getZipCode, getAge, addAge, addNewProperty, getDetails};

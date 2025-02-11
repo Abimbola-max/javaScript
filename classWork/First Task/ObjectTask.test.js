@@ -7,7 +7,8 @@ beforeEach(() => student = {
     address: {
         city: "New York",
         zip: 10001,
-    }
+    },
+    GPA: 3.8,
 });
 
 test ("get student name", () => {
@@ -65,7 +66,7 @@ test ("add another property GPA with a value ", () => {
 });
 
 test ("add a method get details and returns a string", () => {
-    let getDetail = getDetails(student);
-    let answer = "John Doe is 23 years old and has a GPA of 3.8";
+    let getDetail = getDetails(student, 23);
+    let answer = "John Dee is 23 years old and has a GPA of 3.8";
     expect(getDetail).toBe(answer);
-})
+});
