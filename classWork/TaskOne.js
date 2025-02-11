@@ -1,5 +1,5 @@
 // 1
-const person = {
+let person = {
 		name: "Bimbola",
 		age: "24",
 		sex: "female",
