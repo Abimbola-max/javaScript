@@ -1,9 +1,11 @@
 
 function getEachFruitNameQuantity(inventory) {
-    for(let fruits in inventory) {
-        let entries = Object.entries(inventory)
-        return entries;
+    let fruitsDetails = "";
+    for(const[key, value] of Object.entries(inventory)) {
+        fruitsDetails += `${key}: ${value} `;
+
     }
+    return fruitsDetails;
 }
 
 module.exports = {getEachFruitNameQuantity}

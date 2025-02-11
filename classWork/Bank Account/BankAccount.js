@@ -1,4 +1,4 @@
-bankAccount = {
+const bankAccount = {
     owner: "Alice",
     balance: 500,
 
