@@ -8,4 +8,9 @@ function getEachFruitNameQuantity(inventory) {
     return fruitsDetails;
 }
 
-module.exports = {getEachFruitNameQuantity}
+function totalNumberOfFruits(inventory) {
+    const totalSum = Object.values(inventory).reduce((sum, value) => sum + value);
+    return totalSum;
+}
+
+module.exports = {getEachFruitNameQuantity, totalNumberOfFruits}
