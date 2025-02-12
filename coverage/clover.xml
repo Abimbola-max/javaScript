@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1739323742075" clover="3.2.0">
-  <project timestamp="1739323742076" name="All files">
+<coverage generated="1739324540007" clover="3.2.0">
+  <project timestamp="1739324540007" name="All files">
     <metrics statements="16" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="1" elements="20" coveredelements="11" complexity="0" loc="16" ncloc="16" packages="1" files="1" classes="1"/>
     <file name="Inventory.js" path="C:\Users\DELL\Documents\javaScript\classWork\TaskFour\Inventory.js">
       <metrics statements="16" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="1"/>

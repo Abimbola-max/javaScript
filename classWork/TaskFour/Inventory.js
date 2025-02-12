@@ -9,7 +9,7 @@ function getEachFruitNameQuantity(inventory) {
 }
 
 function totalNumberOfFruits(inventory) {
-    const totalSum = Object.values(inventory).reduce((sum, value) => sum + value);
+    const totalSum = Object.values(inventory).reduce((sum, value) => sum + value, 0);
     return totalSum;
 }
 
