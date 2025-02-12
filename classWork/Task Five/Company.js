@@ -8,9 +8,11 @@ function getCompanyNameAndLocation(company) {
 }
 
 function getEmployeesNameAndDepartment(company) {
-    for (const employee of company.employees) {
-        return `${employee.name} ${employee.department},`;
+    let employeeDetails = "";
+    for (const [key, value] of Object.entries(company.employees)) {
+        employeeDetails += `${key}: ${value} `;
     }
+    return employeeDetails;
 }
 
 module.exports = {getEmployeesName, getCompanyNameAndLocation, getEmployeesNameAndDepartment};
