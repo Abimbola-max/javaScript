@@ -1,4 +1,4 @@
-const {checkScores, addScores, squareOf} = require("./Scores.js");
+const {checkScores, addScores, squareOf, addTiming, calculateExpense} = require("./Scores.js");
 
 test ("check students scores greater than seventy", () => {
     const testScores = [
@@ -37,4 +37,24 @@ test ("test that the numbers can be squared", () => {
     expect(answer).toStrictEqual(result)
 })
 
-test ("test")
+// test ("test that books can be distributed", () => {
+//     let name = ["Emily", "Jack", "Sophia", "Daniel"];
+//     let book = ["ace", "icey", "ali goes to school", "brick"];
+//     let shareBook = sharedBooks(name, book);
+//     let result = ["Emily ace", "Jack icey", "Sophia ali goes to school", "Daniel brick"];
+//     expect(shareBook).toStrictEqual(result)
+// })
+
+test ("test class timing is shared", () => {
+    let timing = ["9:00AM", "11;00AM", "1:00PM", "3:00PM", "5:00PM"];
+    let expected = addTiming(timing);
+    let result = ["1:00PM", "3:00PM", "5:00PM"];
+    expect(expected).toEqual(result)
+})
+
+test ("test keep track of expenses", () => {
+    let expenses = {"groceries": 150, "dining out": 100, "transportation": 50, "entertainment": 80};
+    let calculateExpenses = calculateExpense(expenses);
+    let expected = 380;
+    expect(calculateExpenses).toEqual(expected)
+})
