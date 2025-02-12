@@ -8,6 +8,9 @@ const products = [
 
 test ("find expensive product", () => {
     let expensiveProduct = findExpensiveProducts(products, 700);
-    let result = ["Laptop 1200, Phone 800"];
+    let result = [
+        { id: 1, name: "Laptop", price: 1200 },
+        { id: 2, name: "Phone", price: 800 }
+    ]
     expect(expensiveProduct).toEqual(result);
 })

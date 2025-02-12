@@ -1,6 +1,5 @@
 function findExpensiveProducts(products, threshold) {
-    for
-
+    return products.filter(product => product.price > threshold);
 }
 
 module.exports = findExpensiveProducts;
