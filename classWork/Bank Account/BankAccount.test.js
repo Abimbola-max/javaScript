@@ -24,7 +24,7 @@ test ("withdraw 500 from the account", () => {
     expect(withdrawFunction).toBe(expected);
 });
 
-test ("withdraw minus 700 from the account", () => {
+test ("withdraw minus 700 from the account returns original balance", () => {
     let withdrawFunction = bankAccount.withdraw(-700);
     let expected = bankAccount.getBalance();
     expect(withdrawFunction).toBe(expected);
