@@ -33,8 +33,29 @@ function addThreeNumbers(numbers) {
 }
 
 function addIndexToElement(numbers) {
-    let answer = numbers.map((number, index) => number + index);
+    let
+        answer = numbers.map((number, index) => number + index);
     return answer;
 }
 
-module.exports = {getDoubledNumbers, getEvenNumbers, getOddNumbers, getOddNumbers1, addThreeNumbers, addIndexToElement};
+function isOdd(number) {
+    let answer = number % 2 !== 0
+    return answer;
+}
+
+function getOddNumbers2(numbers) {
+    return numbers.filter(isOdd)
+}
+let numbers = [1,2,3,4,5,6,7,8,9];
+console.log(getOddNumbers2(numbers)); // using the call back function
+
+function getWordsGreaterThanFourLetters(words) {
+    return words.filter((word) => word.length > 4);
+}
+
+function objectsWithAgeGreaterThanTwenty(students) {
+    return students.filter(student => student.age > 20)
+}
+
+
+module.exports = {getDoubledNumbers, getEvenNumbers, getOddNumbers, getOddNumbers1, addThreeNumbers, addIndexToElement, getWordsGreaterThanFourLetters, objectsWithAgeGreaterThanTwenty};

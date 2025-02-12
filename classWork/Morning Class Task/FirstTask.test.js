@@ -8,8 +8,8 @@ test("add one to the back of anArray",  () => {
 })
 
 test("add one to the back of an Array",  () => {
-    let numbers = [8,9,9,9];
+    let numbers = [8,9,9,9,9];
     let actual = addOneToTheBackOfAnArray(numbers)
-    let expected = [9,0,0,0];
+    let expected = [9,0,0,0,0];
     expect(actual).toEqual(expected);
 })
