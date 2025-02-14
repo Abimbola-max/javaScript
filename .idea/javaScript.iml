@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/classWork/Task Five" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/classWork/Task Six" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/classWork/TaskFour" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/classWork/OddEvenNumbers/test" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />

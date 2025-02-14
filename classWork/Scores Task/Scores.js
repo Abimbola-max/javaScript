@@ -10,16 +10,16 @@ function squareOf(integers) {
     return integers.map(integer => integer * integer);
 }
 
-// function sharedBooks(name, book) {
-//     let shareBooks = "";
-//     for(const[key, value] of Object.entries(name, book)) {
-//         shareBooks += `${key}: ${value} `;
-//     }
-//     return shareBooks;
-// }
+function sharedBooks(name, book) {
+    let shareBooks = {};
+    for(const[index, key] of name.entries()) {
+        shareBooks[key] = book[index];
+    }
+    return shareBooks;
+}
 
 function addTiming(timing) {
-    return timing.filter(time => time.includes("PM"));
+    return timing.filter(time => time.includes("PM")).filter(time => time.split(":")[0] < 4);
 }
 
 function calculateExpense(expenses) {
@@ -31,4 +31,4 @@ function calculateExpense(expenses) {
 }
 
 
-module.exports = {checkScores, addScores, squareOf, addTiming, calculateExpense};
+module.exports = {checkScores, addScores, squareOf, sharedBooks,addTiming, calculateExpense};
