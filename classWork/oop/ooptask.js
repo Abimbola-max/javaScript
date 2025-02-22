@@ -37,25 +37,3 @@ let personOne = new Human("bimbola", 12, "brown-skinned");
 console.log(personOne);
 console.log(personOne.describe());
 
-
-
-class Human1 {
-    #name;
-    #age;
-
-    constructor(name, age) {
-        this.#name = name;
-        this.#age = age;
-    }
-
-    set firstName(name) {
-        this.#name = name;
-    }
-
-    get FirstName() {
-        return this.#name;
-    }
-}
-
-let personTwo = new Human1("bimbola", 12);
-console.log(personTwo.FirstName);
