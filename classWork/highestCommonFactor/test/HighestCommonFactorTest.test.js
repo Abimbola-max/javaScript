@@ -13,3 +13,10 @@ test ("get HCF of numbers divisible by three", () => {
     let output = [3]
     expect(actual).toEqual(output);
 })
+
+test ("get HCF of numbers divisble by five", () => {
+    let arrOfNumbers = [5,10,15];
+    let actual = getHCFOfNumbers(arrOfNumbers);
+    let output = [5];
+    expect(actual).toEqual(output);
+})

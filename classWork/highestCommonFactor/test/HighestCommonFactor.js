@@ -8,6 +8,7 @@ function getHCFOfNumbers(arrOfNumbers) {
                 arrOfNumbers[j] /= divisor;
                 counter += 1;
             }
+
         }
         if (counter === arrOfNumbers.length) result.push(divisor);
         else divisor++;

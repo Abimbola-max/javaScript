@@ -1,0 +1,160 @@
+.style-button {
+    background-color: white;
+    color: blue;
+    width: 330px;
+    position: relative;
+    bottom: -10px;
+}
+
+.help-everyone {
+
+    color: #26699a;
+    font-family: Arial;
+    font-size: 10px;
+}
+
+.style-button {
+    color: black;
+    font-family: Arial;
+    font-size: 30px;
+
+}
+
+.if-you-are {
+    color: black;
+    font-size: 10px;
+    position: absolute;
+    top: 133px;
+}
+
+.first-image {
+    display: block;
+    margin-left: 890px;
+    margin-right: 30px;
+    margin-top: -600px;
+    width: 300px;
+}
+
+.services {
+    color: black;
+    height: 24px;
+    position: relative;
+    left: 95px;
+    top: -136px;
+    font-size: 17px;
+
+
+}
+
+.get-started {
+    color: white;
+    font-family: Arial;
+    font-size: 10px;
+    background-color: #0074D9;
+    width: 80px;
+    height: 20px;
+    margin-top: 20px;
+    position: relative;
+    top: -270px;
+    box-shadow: 10px 8px 5px white;
+}
+
+.donate {
+    color: black;
+    font-family: Calibri;
+    height: 24px;
+    position: relative;
+    left: 173px;
+    top: -176px;
+    font-size: 17px;
+}
+
+.who-we-are {
+    font-family: Calibri;
+    height: 24px;
+    position: relative;
+    left: 245px;
+    top: -222px;
+    font-size: 17px;
+
+}
+
+.join-us {
+    font-family: Calibri;
+    height: 24px;
+    position: relative;
+    left: 347px;
+    top: -275px;
+    font-size: 17px;
+
+}
+
+.contact {
+    font-family: Calibri;
+    height: 24px;
+    position: relative;
+    left: 425px;
+    top: -339px;
+    font-size: 17px;
+
+}
+
+.blog {
+    font-family: Calibri;
+    height: 24px;
+    position: relative;
+    left: 527px;
+    top: -402px;
+    font-size: 17px;
+
+}
+
+.watch-our-story {
+    font-family: Calibri;
+    color: black;
+    font-size: 12px;
+    margin-top: -295px;
+    margin-left: 105px;
+}
+
+.about-us {
+    font-family: Arial;
+    font-size: 29px;
+    margin-left: 345px;
+}
+
+.about-us-details {
+    font-family: Arial;
+    color: black;
+    font-size: 26px;
+    margin-left: 180px;
+    margin-top: -25px;
+}
+
+.our-services {
+    font-family: Arial;
+    font-size: 35px;
+    color: dodgerblue;
+    margin-top: 50px;
+}
+
+.service-header {
+    font-family: Arial;
+    font-size: 14px;
+    margin-top: -25px;
+}
+
+.service-one-header {
+    font-family: Cambria;
+    font-size: 17px;
+    margin-top: 66px;
+}
+
+.service-one-details {
+    font-family: Cambria;
+    font-size: 30px;
+}
+
+.about-this {
+
+}
