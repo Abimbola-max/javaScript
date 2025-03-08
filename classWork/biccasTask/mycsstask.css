@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainWrapper{
+    width: 1300px;
+    margin: auto;
+    background-image: linear-gradient(to top, white, lightcyan);
+}
+
+.firstWord {
+    display: flex;
+    color: #54BD95;
+    font-family: Inter;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.navLinks ul{
+    list-style: none;
+    width: 408px;
+    height: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks ul a{
+    text-decoration: none;
+    color: #A6A6A6;
+}
+
+.signUpLogin {
+    display: flex;
+
+}
+
+.login {
+    display: flex;
+    color: #A6A6A6;
+    width: 43px;
+}
+
+.signUpButton {
+    background: #54BD95;
+    color: #F8F8FA;
+}
+
+.heroSession {
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+}
+
+.arcImage {
+    height: 7px;
+}
+
+.smilingMan {
+    height: 190px;
+}
+
+.overAll {
+
+}
+
+.productivityText {
+    font-size: 44px;
+}
+
+.tryFreeTrialButton {
+    background: #54BD95;
+    color: #F8F8FA;
+    border: none;
+    width: 105px;
+    height: 45px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.freeTrialPlayAndViewDemo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.viewDemo {
+    display: flex;
+    height: 23px;
+    padding: 2px 10px;
+}
+
+.play {
+    border: 1px;
+    width: 31px;
+    height: 23px;
+    top: 4px;
+    left: 4px;
+}
+
+.overAllPicture {
+    border: 701px;
+}
+
+.moreThanHeader {
+    text-align: center;
+}
+
+.moreThanStatement {
+    margin-top: 280px;
+}
+
+.collabDescription {
+    display: flex;
+}
+
+.unsplashAndOther {
+    display: flex;
+    width: 1076px;
+    top: 1026px;
+    left: 130px;
+}
+
+.unSplashImage {
+    display: flex;
+    /*width: 15%;*/
+    height: 18px;
+    bottom: 30px;
+}
+
+.unSplashWord {
+    font-family: inter;
+    /*font-weight: 40;*/
+    font-size: 18px;
+    /*height: 100%;*/
+    letter-spacing: 0;
+    /*horiz-align: left;*/
+    /*margin-left: 20px;*/
+    color: #A6A6A6;
+}
+
