@@ -123,26 +123,109 @@
 
 .unsplashAndOther {
     display: flex;
-    width: 1076px;
-    top: 1026px;
-    left: 130px;
+    position: absolute;
+    top: 695px;
+    left: 250px;
+    height: 30px;
+    /*width: 0px;*/
 }
 
-.unSplashImage {
+.secondPage {
+    box-sizing: border-box;
+    background: #F9F8FE;
     display: flex;
-    /*width: 15%;*/
-    height: 18px;
-    bottom: 30px;
+    margin-top: 100px;
+    width: 1440px;
+    height: 541px;
 }
 
-.unSplashWord {
-    font-family: inter;
-    /*font-weight: 40;*/
-    font-size: 18px;
-    /*height: 100%;*/
-    letter-spacing: 0;
-    /*horiz-align: left;*/
-    /*margin-left: 20px;*/
+.firstAspectSecondPage {
+    display: contents;
+
+}
+
+.support {
+    display: block;
+    font-family: Inter;
+    padding-top: 50px;
+}
+
+.supportDescription {
+    font-family: Inter;
+    padding-top: 20px;
     color: #A6A6A6;
+}
+
+.ratingContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstRating {
+    padding-top: 35px;
+}
+
+.numberRating {
+    padding-top: 7px;
+}
+
+.databricks {
+    padding-top: 2px;
+    font-family: Inter;
+    color: #A6A6A6;
+}
+
+.secondRating {
+    padding-top: 35px;
+    margin-right: 100px;
+}
+
+.secondNumberRating {
+    padding-top: 7px;
+}
+
+.chainalysis {
+    margin-top: 2px;
+    font-family: Inter;
+    color: #A6A6A6;
+}
+
+.secondbox {
+    border-style: dashed;
+    width: 509px;
+    height: 411px;
+    padding-right: 390px;
+    margin-left: 260px;
+
+}
+
+.publishingAndImage {
+    display: flex;
+}
+
+.publishingHeader {
+    /*border-style: dashed;*/
+    font-size: 28px;
+    margin-left: 20px;
+    /*width: 15px;*/
+    /*padding-right: 23px;*/
+
+}
+
+.publishImage {
+    width: 25px;
+    height: 30px;
+    left: 816px;
+
+
+}
+
+.publishingWords {
+    color: #A6A6A6;
+    font-family: Inter;
+    width: 428px;
+    height: 90px;
+    /*border-style: solid;*/
+    align-items: flex-start
 }
 
