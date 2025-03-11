@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: Inter;
 }
 
 .mainWrapper{
@@ -40,7 +42,6 @@
 
 .signUpLogin {
     display: flex;
-
 }
 
 .login {
@@ -52,6 +53,7 @@
 .signUpButton {
     background: #54BD95;
     color: #F8F8FA;
+    /*border-radius: inherit;*/
 }
 
 .heroSession {
@@ -66,10 +68,6 @@
 
 .smilingMan {
     height: 190px;
-}
-
-.overAll {
-
 }
 
 .productivityText {
@@ -134,9 +132,12 @@
     box-sizing: border-box;
     background: #F9F8FE;
     display: flex;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
     width: 1440px;
+    top: 1394px;
     height: 541px;
+    margin: auto;
+    /*border-style: solid;*/
 }
 
 .firstAspectSecondPage {
@@ -147,7 +148,7 @@
 .support {
     display: block;
     font-family: Inter;
-    padding-top: 50px;
+    padding-top: 190px;
 }
 
 .supportDescription {
@@ -191,22 +192,27 @@
 }
 
 .secondbox {
-    border-style: dashed;
+    /*border-style: dashed;*/
     width: 509px;
     height: 411px;
     padding-right: 390px;
     margin-left: 260px;
-
+    margin-top: 40px;
+    padding-top: 150px;
 }
 
 .publishingAndImage {
     display: flex;
+    /*border-style: solid;*/
+    width: 509px;
+    height: 137px;
 }
 
-.publishingHeader {
+.header {
     /*border-style: dashed;*/
     font-size: 28px;
     margin-left: 20px;
+    font-family: Inter;
     /*width: 15px;*/
     /*padding-right: 23px;*/
 
@@ -220,12 +226,210 @@
 
 }
 
-.publishingWords {
+.content {
     color: #A6A6A6;
     font-family: Inter;
     width: 428px;
     height: 90px;
-    /*border-style: solid;*/
-    align-items: flex-start
+    margin-top: 35px;
+    margin-left: -120px;
 }
+
+.analyticsAndImage {
+    display: flex;
+    width: 508px;
+    height: 107px;
+    /*border-style: solid;*/
+}
+
+.analyticsImage {
+    width: 25px;
+    height: 30px;
+    left: 816px;
+}
+
+.engagementImage {
+    width: 25px;
+    height: 30px;
+    left: 816px;
+}
+
+.engagementAndImage {
+    display: flex;
+    width: 508px;
+    height: 107px;
+}
+
+.thirdPage {
+    width: 1180px;
+    height: 766px;
+    top: 1867px;
+    left: 146px;
+    margin: auto;
+    /*border-style: solid;*/
+}
+
+.featuresAndStuffs {
+    display: flex;
+    width: 1180px;
+    height: 122px;
+    padding-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.textBesideFeatures {
+    width: 481px;
+    height: 90px;
+    color: #A6A6A6;
+    padding-top: 20px;
+}
+
+.getStartedButton {
+    background: #54BD95;
+    color: #F8F8FA;
+    border: none;
+    width: 105px;
+    height: 45px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.thirdPageRemainder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*padding-bottom: -200px;*/
+    /*padding-top: -100px;*/
+}
+
+.firstPart {
+    padding-top: 100px;
+}
+
+.collaborationTeam {
+    width: 282px;
+    height: 30px;
+}
+
+.collaborationText {
+    color: #A6A6A6;
+    padding-top: 20px;
+}
+
+.secondPart {
+    padding-top: 100px;
+}
+
+.cloudStorage {
+    width: 282px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.cloudStorageText {
+    color: #A6A6A6;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.thirdPart {
+    padding-top: 100px;
+}
+
+.dailyAnalytics {
+    width: 282px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.dailyAnalyticsText {
+    color: #A6A6A6;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.fourthPage {
+    width: 1180px;
+    height: 766px;
+    top: 1867px;
+    left: 146px;
+    margin: auto;
+    padding-top: 120px;
+    /*border-style: solid;*/
+}
+
+.fifthPage {
+    width: 1180px;
+    height: 1069px;
+    /*top: 3434px;*/
+    left: 141px;
+    margin: auto;
+    background-image: linear-gradient(to right, white, lightcyan);
+    border-style: solid;
+}
+
+.choosePlanHeader{
+    /*display: contents;*/
+    width: 492px;
+    height: 146px;
+    top: 3434px;
+    left: 485px;
+    color: #111111;
+    margin-left: 470px;
+}
+
+.planThatWorksBest {
+    width: 519px;
+    height: 22px;
+    left: 472px;
+    color: #A6A6A6;
+    margin-left: 450px;
+    margin-top: -35px;
+    /*border-style: solid;*/
+}
+
+.billMonthAndYear {
+    display: flex;
+    width: 240px;
+    height: 50px;
+    /*top: 3682px;*/
+    /*left: 561px;*/
+    margin-left: 500px;
+    margin-bottom: -100px;
+    background: white;
+    /*border-style: solid;*/
+    position: absolute;
+}
+
+.billMonth {
+    position: relative;
+    height: 30px;
+    width: 970px;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+/*.billYearly {*/
+/*    position: relative;*/
+/*    height: 56px;*/
+/*    width: 160px;*/
+/*    padding-right: 100px;*/
+/*    padding-top: 25px;*/
+/*    background-color: #54BD95;*/
+/*}*/
+
+.bill {
+    position: relative;
+    height: 56px;
+    width: 55px;
+    padding-right: 10px;
+    padding-top: 20px;
+    background-color: #54BD95;
+    border-radius: 20px;
+    color: white;
+}
+
+
 
