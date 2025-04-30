@@ -26,12 +26,15 @@
 }
 
 .products {
-    display: flex;
-    justify-content: space-between;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .product img{
     width: 200px;
     height: 220px;
+}
+
+.product {
+    width: 200px;
 }
