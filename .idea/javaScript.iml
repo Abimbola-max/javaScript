@@ -2,18 +2,6 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/classWork/Bank Account" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/classWork/First Task" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/classWork/For Each Task" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/classWork/Malik" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/classWork/Morning Class Task" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/classWork/Scores Task" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/classWork/Task Five" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/classWork/Task Six" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/classWork/TaskFour" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/classWork/OddEvenNumbers/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/classWork/highestCommonFactor/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/classWork/classTask/test" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />

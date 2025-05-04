@@ -1,32 +1,10 @@
 {
-  "name": "javascript",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "jest"
-  },
-  "devDependencies": {
-    "prettier": "^3.3.1",
-    "vite": "^5.1.6"
-  },
-  "dependencies": {
-    "jest": "^29.7.0",
-    "prompt-sync": "^4.2.0"
-  },
+  "name": "${PROJECT_NAME}",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Abimbola-max/javaScript.git"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Abimbola-max/javaScript/issues"
-  },
-  "homepage": "https://github.com/Abimbola-max/javaScript#readme"
+  "private": true
 }
