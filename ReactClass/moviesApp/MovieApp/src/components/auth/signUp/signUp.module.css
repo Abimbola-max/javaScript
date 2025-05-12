@@ -1,0 +1,81 @@
+
+body {
+    background: #f7f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signupContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background: #f7f7fa;
+    padding-top: 40px;
+}
+
+.signupForm {
+    background: #fff;
+    padding: 32px 36px 28px 36px;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(80, 80, 160, 0.12);
+    width: 100%;
+    max-width: 400px;
+    margin: 32px auto;
+}
+
+.signupForm h2 {
+    text-align: center;
+    color: #6a4c93;
+    font-weight: 700;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.formGroup label {
+    margin-bottom: 6px;
+    color: #444;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.formGroup input {
+    padding: 12px 14px;
+    font-size: 1rem;
+    border: 1.5px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.2s;
+    background: #f9f9fc;
+}
+
+.formGroup input:focus {
+    outline: none;
+    border-color: #9361bf;
+    background: #f3f0fa;
+}
+
+.signupForm button,
+.signupCorm .customButton {
+    width: 100%;
+    padding: 12px 0;
+    margin-top: 8px;
+    background: #9361bf;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(147, 97, 191, 0.08);
+}
+
+.signupForm button:hover,
+.signupForm .customButton:hover {
+    background: #6a4c93;
+}
