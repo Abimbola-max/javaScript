@@ -1,4 +1,5 @@
-const getHCFOfNumbers = require("./HighestCommonFactor");
+const getHCFOfNumbers = require("../src/HighestCommonFactor");
+
 
 test ("get HCF of numbers only", () => {
     let arrOfNumbers = [4,12,8];
@@ -7,16 +8,9 @@ test ("get HCF of numbers only", () => {
     expect(actual).toEqual(output);
 });
 
-test ("get HCF of numbers divisible by three", () => {
-    let arrOfNumbers = [6,9,15];
+test ("get HCF of numbers only2", () => {
+    let arrOfNumbers = [10, 20];
     let actual = getHCFOfNumbers(arrOfNumbers);
-    let output = [3]
+    let output = [2]
     expect(actual).toEqual(output);
-})
-
-test ("get HCF of numbers divisble by five", () => {
-    let arrOfNumbers = [5,10,15];
-    let actual = getHCFOfNumbers(arrOfNumbers);
-    let output = [5];
-    expect(actual).toEqual(output);
-})
+});

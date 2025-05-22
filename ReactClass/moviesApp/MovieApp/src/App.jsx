@@ -3,7 +3,7 @@ import './App.css'
 import SignUp from "./components/auth/signUp/signUp.jsx";
 import Login from "./components/auth/login/login.jsx";
 import router from "./router/routes.jsx";
-import {RouterProvider} from "react-router";
+import {BrowserRouter, RouterProvider} from "react-router";
 
 function App() {
 
