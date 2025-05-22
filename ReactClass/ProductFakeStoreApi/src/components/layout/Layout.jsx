@@ -1,7 +1,5 @@
 import {Outlet} from "react-router";
 import Header from "../header/header.jsx"
-import SideBar from "../sideBar/SideBar.jsx";
-import Footer from "../footer/Footer.jsx";
 import style from "./layout.module.css";
 
 const Layout = () => {
@@ -9,10 +7,10 @@ const Layout = () => {
         <div className={style.layOutWrapper}>
             <Header/>
             <div className={style.sideBarOutlet}>
-                <SideBar/>
+                {/*<SideBar/>*/}
                 <Outlet/>
             </div>
-            <Footer/>
+            {/*<Footer/>*/}
         </div>
     )
 }
