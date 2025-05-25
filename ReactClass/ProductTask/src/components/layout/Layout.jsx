@@ -2,18 +2,18 @@ import React from 'react'
 import Footer from "../footer/Footer.jsx";
 import Body from "../body/Body.jsx";
 import Header from "../header/Header.jsx";
+import style from "./layout.module.css";
+
 
 
 const Layout =()=> {
     return(
-        <div>
-            <div>
-                <Header/>
+        <div className={style.layOutWrapper}>
+            <Header/>
+            <div className={style.sideBarOutlet}>
+                <Body/>
             </div>
-            <Body/>
-            <div>
-                <Footer/>
-            </div>
+            <Footer/>
         </div>
 
     )
