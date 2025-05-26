@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './fakeStoreCard.module.css'; // Import CSS module
 // import {useGetAllFakeProductsQuery} from "../service/fakeStoreApi.jsx";
 
 const FakeStoreCard = (props) => {
@@ -22,10 +23,13 @@ const FakeStoreCard = (props) => {
         <div>
             {
                 data?.map((product) => (
-                    <div key={product.id}>
-                        <img src={product.image} alt={product.title} width={150} />
-                        <p>{product.price}</p>
-                        <p>{product.title}</p>
+                    <div key={product.id} className={styles.card}>
+                        <img src={product.image} alt={product.title} className={styles.productImage} />
+                        <div className={styles.cardBody}>
+                            <p className={styles.price}>Price: ${product.price}</p>
+                            <p className={styles.title}>{product.title}</p>
+                            <button className={styles.addToCart}>Add to cart</button>
+                        </div>
                     </div>
                 ))}
         </div>
