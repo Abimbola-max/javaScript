@@ -28,7 +28,7 @@ const FakeStoreCard = (props) => {
                         <div className={styles.cardBody}>
                             <p className={styles.price}>Price: ${product.price}</p>
                             <p className={styles.title}>{product.title}</p>
-                            <button className={styles.addToCart}>Add to cart</button>
+                            <button className={styles.addToCartBtn}>Add to cart</button>
                         </div>
                     </div>
                 ))}

@@ -5,7 +5,6 @@ import Header from "../header/Header.jsx";
 import style from "./layout.module.css";
 
 
-
 const Layout =()=> {
     return(
         <div className={style.layOutWrapper}>

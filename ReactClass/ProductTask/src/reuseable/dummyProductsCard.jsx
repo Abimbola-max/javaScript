@@ -22,7 +22,7 @@ const DummyProductsCard = (props) => {
     return (
         <div>
             {
-                data?.map((product) => (
+                data?.results.map((product) => (
                     <div key={product.id} className={styles.card}>
                         <img src={product.image} alt={product.title} className={styles.productImage} />
                         <div className={styles.cardBody}>
