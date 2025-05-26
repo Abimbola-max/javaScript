@@ -10,7 +10,7 @@ const Layout =()=> {
     return(
         <div className={style.layOutWrapper}>
             <Header/>
-            <div className={style.sideBarOutlet}>
+            <div>
                 <Body/>
             </div>
             <Footer/>
