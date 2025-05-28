@@ -1,6 +1,6 @@
 import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react";
 
-const dummyProductsApiUrl = "'https://dummyjson.com/products"
+const dummyProductsApiUrl = "https://dummyjson.com"
 
 
 export const dummyProductsApi = createApi({
@@ -8,7 +8,7 @@ export const dummyProductsApi = createApi({
     baseQuery: fetchBaseQuery({baseUrl: `${dummyProductsApiUrl}`}),
     endpoints: (build) => ({
         getAllDummyProducts: build.query({
-            query: () => ""
+            query: () => "/products"
         })
     })
 })

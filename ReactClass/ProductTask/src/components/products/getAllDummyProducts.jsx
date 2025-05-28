@@ -5,7 +5,7 @@ import DummyProductsCard from "../../reuseable/dummyProductsCard.jsx";
 const GetAllDummyProducts = () => {
 
     const {data, isError, isLoading} = useGetAllDummyProductsQuery();
-
+    console.log("get all dummy data",data)
 
     if (isLoading) return <div>Loading products...</div>;
     if (isError) return <div>Error loading products.</div>;

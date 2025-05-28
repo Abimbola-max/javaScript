@@ -20,20 +20,20 @@ const FakeStoreCard = (props) => {
     }
 
     return (
-        <div>
-            {
-                data?.map((product) => (
-                    <div key={product.id} className={styles.card}>
-                        <img src={product.image} alt={product.title} className={styles.productImage} />
-                        <div className={styles.cardBody}>
-                            <p className={styles.price}>Price: ${product.price}</p>
-                            <p className={styles.title}>{product.title}</p>
-                            <button className={styles.addToCartBtn}>Add to cart</button>
-                        </div>
+        <div className={styles.container}>
+            {data?.map((product) => (
+                <div key={product.id} className={styles.card}>
+                    <img src={product.image} alt={product.title} className={styles.productImage} />
+                    <div className={styles.cardBody}>
+                        <p className={styles.price}>Price: ${product.price}</p>
+                        <p className={styles.title}>{product.title}</p>
+                        <button className={styles.addToCart}>Add to cart</button>
                     </div>
-                ))}
+                </div>
+            ))}
         </div>
-    );
+
+);
 };
 
 export default FakeStoreCard;
